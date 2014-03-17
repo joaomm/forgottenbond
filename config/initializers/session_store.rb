@@ -1,3 +1,3 @@
 # Be sure to restart your server when you modify this file.
 
-Freelands::Application.config.session_store :cookie_store, key: '_freelands_session'
+ForgottenBond::Application.config.session_store :cookie_store, key: '_forgotten_bond_session'

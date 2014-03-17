@@ -1,4 +1,4 @@
-Freelands::Application.routes.draw do
+ForgottenBond::Application.routes.draw do
   resources :prospects, only: [:show, :index, :create, :new]
   root "prospects#new"
 

@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Freelands::Application.config.secret_key_base = '319eca483832c0c39f5bf598408d348254bffd1a25a59a04910f461d527050340ba6d0413e29e8d2f8d578c1abc002d88ba0c777ec4aec4e4dbd7e04bff311a2'
+ForgottenBond::Application.config.secret_key_base = '319eca483832c0c39f5bf598408d348254bffd1a25a59a04910f461d527050340ba6d0413e29e8d2f8d578c1abc002d88ba0c777ec4aec4e4dbd7e04bff311a2'

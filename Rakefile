@@ -2,5 +2,4 @@
 # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
 require File.expand_path('../config/application', __FILE__)
-
-Freelands::Application.load_tasks
+ForgottenBond::Application.load_tasks
