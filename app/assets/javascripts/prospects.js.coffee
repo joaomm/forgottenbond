@@ -12,11 +12,8 @@ $ ->
   )
 
   form.on("submit", (event) ->
-    event.preventDefault()
-    
-    if (email_input.val())
-      form.submit()
-    else
+    if (!email_input.val())
+      event.preventDefault()
       email_input.css({"border": "3px solid #940F00"})
       email_input.focus()
   )
