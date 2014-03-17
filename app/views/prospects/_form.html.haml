@@ -1,0 +1,9 @@
+= form_for @prospect, {role: "form"} do |f|
+  #buy_in.field
+    = f.email_field :email, class: "form-control", placeholder: "Type your e-mail address..."
+    = f.submit 'Collaborate', class: "btn btn_header"
+    %spam.explanation Don't worry! We won't spam you.
+  
+  .field
+    %button#call_to_action{class: "btn btn_header"}= "Start Collaborating"
+

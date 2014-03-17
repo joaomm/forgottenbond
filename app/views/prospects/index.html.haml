@@ -1,0 +1,7 @@
+%h1 Listing prospects
+
+%table
+  - @prospects.each do |prospect|
+    %tr
+      %td= prospect.email
+      %td= prospect.created_at.strftime("%d %b.")

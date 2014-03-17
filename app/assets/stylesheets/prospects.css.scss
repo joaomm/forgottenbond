@@ -1,0 +1,103 @@
+html, body {
+  height: 100%;
+  font-family: "Helvetica Neue", "Helvetica";
+}
+
+body {
+  background: #edece4;
+  width: 100%;
+  color: #3c4043;
+  font-size: 1.3em;
+  color: white;
+}
+
+.header {
+  min-height: 100%;
+  height: 100%;
+  background: #242628 url(/images/background3.jpg) center center;
+  background-size: cover;
+  position: relative;
+  padding: 20px 40px;
+}
+
+.header_content {
+  text-align: center;
+}
+
+.header h1 img {
+  width: 200px;
+  max-width: 100%;
+}
+
+.header h2 {
+  font-size: 55px;
+  font-weight: bold;
+  font-family: "Lusitana", serif;
+  margin-top: 120px;
+  text-shadow: 0 1px 1px black;
+}
+
+.header p {
+  font-size: 1.3em;
+  width: 700px;
+  max-width: 100%;
+  font-weight: 300;
+  margin: 30px auto;
+}
+
+.explanation {
+  font-size: 1em;
+  margin: 5px 0;
+  display: block;
+}
+
+.header input[type=email] {
+  width: 300px;
+  padding: 25px 10px 25px 10px;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: bold;
+  vertical-align: middle;
+  color: #940F00;
+}
+
+.btn_header {
+  padding: 10px 20px;
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 3px;
+  color: white;
+  background: none;
+  font-size: 1.5em;
+  &:hover {
+    background: white;
+    color: #940F00;
+  }
+}
+
+#buy_in {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .header h1 {
+    text-align: center;
+  }
+
+  .header h2 {
+    font-size: 28px;
+  }
+
+  .header p {
+    font-size: 1.2em;
+  }
+
+  #buy_in input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+  }
+}
+
+table td {
+  padding-right: 20px;
+}
