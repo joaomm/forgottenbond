@@ -38,7 +38,7 @@ body {
 }
 
 .header p {
-  font-size: 1.3em;
+  font-size: 1.4em;
   width: 700px;
   max-width: 100%;
   font-weight: 300;
@@ -70,8 +70,9 @@ body {
   background: none;
   font-size: 1.5em;
   &:hover {
-    background: white;
-    color: #940F00;
+    background: #6E0B00;
+    border-color: transparent;
+    color: white;
   }
 }
 
