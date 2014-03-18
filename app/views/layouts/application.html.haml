@@ -6,6 +6,12 @@
     %meta{content: "width=device-width, initial-scale=1", name: "viewport"}
     %title ForgottenBond
 
+    %meta{content: "ForgottenBond RPG", property: "og:title"}
+    %meta{content: "Help us create the first free RPG System. We want to create and share adventures, modern character sheets, join our creativity to build an awesome campaign scenario, resources to make our quests even more complete and legendary.", property: "og:description"}
+    %meta{content: "http://www.forgottenbond.com", property: "og:url"}
+    %meta{content: "http://www.forgottenbond.com/images/logo_dark.png", property: "og:image"}
+    %meta{content: "http://www.forgottenbond.com/images/background2.png", property: "og:image"}
+
     %link{href: "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css", rel: "stylesheet"}
     %link{href: "//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js", rel: "stylesheet"}
     %link{href: "//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js", rel: "stylesheet"}
@@ -23,3 +29,5 @@
 
     = javascript_include_tag "application", "data-turbolinks-track" => true
     %script{src: "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"}
+
+    = render "commons/googleanalytics"

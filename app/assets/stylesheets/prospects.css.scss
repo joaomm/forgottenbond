@@ -80,6 +80,17 @@ body {
   display: none;
 }
 
+.social {
+  margin: 40px auto;
+  text-align: center;
+  height: 20px;
+}
+
+.social_button {
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
 @media (max-width: 600px) {
   .header {
     padding: 10px 30px;
