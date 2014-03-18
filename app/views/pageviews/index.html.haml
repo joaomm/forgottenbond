@@ -1,0 +1,8 @@
+%h1 Listing pageviews
+
+%table
+  - @pageviews.each do |pageview|
+    %tr
+      %td= pageview.page
+      %td= pageview.ip
+      %td= pageview.created_at

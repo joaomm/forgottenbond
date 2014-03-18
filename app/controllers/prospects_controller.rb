@@ -6,10 +6,12 @@ class ProspectsController < ApplicationController
   end
 
   def show
+    Pageview.create(page: "prospect", ip: request.remote_ip)
   end
 
   def new
     @prospect = Prospect.new
+    Pageview.create(page: "landing page", ip: request.remote_ip)
   end
 
   def create

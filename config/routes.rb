@@ -1,5 +1,6 @@
 ForgottenBond::Application.routes.draw do
   resources :prospects, only: [:show, :index, :create, :new]
+  resources :pageviews, only: [:index]
   root "prospects#new"
 
   # The priority is based upon order of creation: first created -> highest priority.
